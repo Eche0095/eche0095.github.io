@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: rgb(223, 223, 168);
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 1rem
+}
+
+.personal,
+.conocimientos {
+    padding: 1rem;
+    line-height: 2;
+}
+
+.left {
+    background-color: rgb(226, 214, 195);
+}
+
+.left-image {
+    position: relative;
+}
+
+.left-image img {
+    width: 100%;
+}
+
+.left-image h2 {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+}
+
+.experiencialaboral,
+.educación {
+    padding: 1rem;
+    line-height: 2;
+}
+
+.experiencialaboral ul {
+    margin: 2rem 0;
+}
+
+
+.educación ul {
+    margin: 2rem 0;
+}
+
+footer {
+    background-color: rgb(188, 197, 105);
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 2;
+}
+
+i {
+    color: rgb(153, 79, 52);
+}
